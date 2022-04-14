@@ -52,3 +52,15 @@ CLASS	DESCRIPTION
 .uk-alert-success	Indicates success or a positive message.
 .uk-alert-warning	Indicates a message containing a warning.
 .uk-alert-danger	Indicates an important or error message.
+
+Align
+Control the alignment of inline elements depending on the viewport size.
+
+Usage
+To align images or other elements with spacing between the text and the element, add one of these classes.
+
+CLASS	DESCRIPTION
+.uk-align-left	Floats the element to the left and creates right and bottom margin.
+.uk-align-right	Floats the element to the right and creates left and bottom margin.
+.uk-align-center	Centers the element and creates bottom margin.
+<img class="uk-align-left" src="" width="" height="" alt="">
