@@ -1,66 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Title</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/uikit.min.css" />
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
-    </head>
-    <body>
-      <h1>Back to Bases</h1>
 
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+</head>
 
-      <h3> the accordion </h2>
+<body>
+  <h1>Back to Bases</h1>
 
-
-      <h3> the accordion  </h2>
-      <h5>pro tip</h5>
-      <p>pode ser usar uk-open : i para iterar sobre os diversos valores </p>
-      <ul uk-accordion>
-        <li>
-            <a  class = "uk-accordion-title" href="#"> Gero </a>
-            <div class = "uk-accordion-content"> Gero is a realy good uikit user wow</div>
-        </li>
-        <li class="uk-open">
-          <a  class = "uk-accordion-title" href="#"> Gero ? </a>
-          <div class = "uk-accordion-content"> Gero the guy with low scores at university ?</div>
-      </li>
-      <li>
-        <a  class = "uk-accordion-title" href="#"> Gero ! </a>
-        <div class = "uk-accordion-content"> YEAAH NOW HE IS MAKING IOS APPLICATIONS </div>
-    </li>
-      </ul>
-      <h3> the accordion - no colapse </h2>
-        <ul uk-accordion="collapsible: false">
+  <ul uk-accordion>
+    <li>
+      <a class="uk-accordion-title"> The Accordion</a>
+      <div class="uk-accordion-content">
+        <h4>pro tip</h4>
+        <p>pode se usar uk-open : i para iterar sobre os diversos valores </p>
+        <ul uk-accordion>
           <li>
-              <a  class = "uk-accordion-title" href="#"> Gero </a>
-              <div class = "uk-accordion-content"> Gero is a realy good uikit user wow</div>
+            <a class="uk-accordion-title" href="#"> Gero </a>
+            <div class="uk-accordion-content"> Gero is a realy good uikit user wow</div>
+          </li>
+          <li class="uk-open">
+            <a class="uk-accordion-title" href="#"> Gero ? </a>
+            <div class="uk-accordion-content"> Gero the guy with low scores at university ?</div>
           </li>
           <li>
-            <a  class = "uk-accordion-title" href="#"> Gero ? </a>
-            <div class = "uk-accordion-content"> Gero the guy with low scores at university ?</div>
-        </li>
-        <li>
-          <a  class = "uk-accordion-title" href="#"> Gero ! </a>
-          <div class = "uk-accordion-content"> YEAAH NOW HE IS MAKING IOS APPLICATIONS </div>
-      </li>
+            <a class="uk-accordion-title" href="#"> Gero ! </a>
+            <div class="uk-accordion-content"> YEAAH NOW HE IS MAKING IOS APPLICATIONS </div>
+          </li>
         </ul>
-        <h3> the accordion - multiple </h2>
-          <ul uk-accordion="multiple: true">
+        <h3> the accordion - no colapse </h2>
+          <ul uk-accordion="collapsible: false">
             <li>
-                <a  class = "uk-accordion-title" href="#"> Gero </a>
-                <div class = "uk-accordion-content"> Gero is a realy good uikit user wow</div>
+              <a class="uk-accordion-title" href="#"> Gero </a>
+              <div class="uk-accordion-content"> Gero is a realy good uikit user wow</div>
             </li>
             <li>
-              <a  class = "uk-accordion-title" href="#"> Gero ? </a>
-              <div class = "uk-accordion-content"> Gero the guy with low scores at university ?</div>
-          </li>
-          <li>
-            <a  class = "uk-accordion-title" href="#"> Gero ! </a>
-            <div class = "uk-accordion-content"> YEAAH NOW HE IS MAKING IOS APPLICATIONS </div>
-        </li>
+              <a class="uk-accordion-title" href="#"> Gero ? </a>
+              <div class="uk-accordion-content"> Gero the guy with low scores at university ?</div>
+            </li>
+            <li>
+              <a class="uk-accordion-title" href="#"> Gero ! </a>
+              <div class="uk-accordion-content"> YEAAH NOW HE IS MAKING IOS APPLICATIONS </div>
+            </li>
           </ul>
-    </body>
+          <h3> the accordion - multiple </h2>
+            <ul uk-accordion="multiple: true">
+              <li>
+                <a class="uk-accordion-title" href="#"> Gero </a>
+                <div class="uk-accordion-content"> Gero is a realy good uikit user wow</div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#"> Gero ? </a>
+                <div class="uk-accordion-content"> Gero the guy with low scores at university ?</div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#"> Gero ! </a>
+                <div class="uk-accordion-content"> YEAAH NOW HE IS MAKING IOS APPLICATIONS </div>
+              </li>
+            </ul>
+      </div>
+    </li>
+
+    <li>
+      <a class="uk-accordion-title"> Alert </a>
+      <div class="uk-accordion-content">
+
+        <div uk-alert> Bem Vind@
+          <a class="uk-alert-close" uk-close></a>
+        </div>
+
+        <h4>pro tip</h4>
+        <p>
+          primary, sucess, warning, danger cam be add to uk-alert, see
+        </p>
+
+        <div class="uk-alert-danger " uk-alert> AAAAAAAAAAAAAAAAAAAAA WHAT ARE YOU DOING
+          <a class="uk-alert-close" uk-close></a>
+        </div>
+        <div class="uk-alert-success" uk-alert>
+          <a class="uk-alert-close" uk-close></a>
+          <p>uh, my bad, everything is fine</p>
+        </div>
+        <div class="uk-alert-warning" uk-alert>
+          <a class="uk-alert-close" uk-close></a>
+          <p>OR ISNT ?</p>
+      </div>
+
+      </div>
+
+
+
+    </li>
+
+
+  </ul>
+
+
+
+</body>
+
 </html>

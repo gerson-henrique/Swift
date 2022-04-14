@@ -1,4 +1,4 @@
-Accordion 
+ACCORDEON 
 - cria uma lista de itens que podem ser mostradas individualmente inclando em seu header
 
 Usage
@@ -32,3 +32,23 @@ shown	Fires after the item's show animation has completed.
 beforehide	Fires before an item is hidden. Can prevent hiding by calling preventDefault() on the event.
 hide	Fires after an item's hide animation has started.
 hidden	Fires after an item is hidden.
+
+ALERT
+
+- mostra uma mensagem de erro ou sucesso
+Usage
+To apply this component, add the uk-alert attribute to a block element.
+
+<div uk-alert></div>
+PREVIEW
+MARKUP
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Style modifiers
+There are several style modifiers available. Just add one of the following classes to apply a different look.
+
+CLASS	DESCRIPTION
+.uk-alert-primary	Give the message a prominent styling.
+.uk-alert-success	Indicates success or a positive message.
+.uk-alert-warning	Indicates a message containing a warning.
+.uk-alert-danger	Indicates an important or error message.
