@@ -1,0 +1,12 @@
+.uk-align-left@s
+.uk-align-right@s	Only affects device widths of 640px and higher.
+.uk-align-left@m
+.uk-align-right@m	Only affects device widths of 960px and higher.
+.uk-align-left@l
+.uk-align-right@l	Only affects device widths of 1200px and higher.
+.uk-align-left@xl
+.uk-align-right@xl	Only affects device widths of 1600px and higher.
+
+
+SPORLIGHT @s @m @l @xl te diz algo ?
+
